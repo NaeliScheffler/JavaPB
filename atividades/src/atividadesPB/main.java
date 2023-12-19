@@ -1,13 +1,12 @@
 package atividadesPB;
 
-import atividadesPB.Rectangle;
 import java.util.Scanner;
 
 public class main {
 	static double l;
 	static double c;
 
-	public static void main(String[] args) {
+	public main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Insira a largura do retangulo:");
@@ -17,7 +16,7 @@ public class main {
 		c = sc.nextDouble();
 
 		Rectangle r = new Rectangle();
-		
+
 		r.setAtributos(l, c);
 		r.areaR();
 		r.perimetroR();
